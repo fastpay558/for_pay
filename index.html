@@ -346,16 +346,10 @@ sign = md5("mchTradeNo=...&key=abc123456789") = e1a8f7c4b3...
                         <td>支付结果回调地址</td>
                     </tr>
                     <tr>
-                        <td>firstName</td>
+                        <td>payName</td>
                         <td>string</td>
                         <td>否</td>
-                        <td>用户姓（最长 32 位）</td>
-                    </tr>
-                    <tr>
-                        <td>sencondName</td>
-                        <td>string</td>
-                        <td>否</td>
-                        <td>用户名（最长 64 位）</td>
+                        <td>用户姓名（最长 32 位）</td>
                     </tr>
                     <tr>
                         <td>remark</td>
@@ -391,8 +385,7 @@ sign = md5("mchTradeNo=...&key=abc123456789") = e1a8f7c4b3...
   "mchTradeNo": "xxx",
   "amount": "200.00",
   "notifyUrl": "https://merchant.com/notify",
-  "firstName": "ZHANG",
-  "sencondName": "SAN",
+  "payName": "ZHANG SAN",
   "remark": "测试订单",
   "notifyData": "ext_data",
   "returnUrl": "https://merchant.com/result",
