@@ -469,6 +469,16 @@ sign = md5("mchTradeNo=...&key=abc123456789") = e1a8f7c4b3...
                         <td>通道编码</td>
                     </tr>
                     <tr>
+                        <td>createTime</td>
+                        <td>string</td>
+                        <td>订单创建时间</td>
+                    </tr>
+                    <tr>
+                        <td>expireTime</td>
+                        <td>string</td>
+                        <td>订单有效时间</td>
+                    </tr>
+                    <tr>
                         <td>status</td>
                         <td>int</td>
                         <td>订单状态</td>
@@ -500,6 +510,8 @@ sign = md5("mchTradeNo=...&key=abc123456789") = e1a8f7c4b3...
     "payUrl": "http://localhost:8080/service/page/pay?...",
     "channelNo": "1001",
     "status": 0,
+    "expireTime": "1766511676221",
+    "createTime": "1766511976221",
     "statusMsg": "待支付",
     "sign": "ed9f37365b0836463598d8cb30dec323"
   }
